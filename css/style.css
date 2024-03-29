@@ -253,3 +253,134 @@ h1>span {
     font-size: 72px;
     font-weight: 900;
 }
+
+.holiday-sales-container-2 {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.group75-img {
+    position: absolute;
+}
+
+.Rectangle2-img {
+    width: 1320px;
+    height: 229px;
+
+}
+
+/* the best gift style  */
+.best-gift-small-title {
+    margin-top: 150px;
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.best-gift-title {
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.best-gift-description {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.best-gift-img-container-one {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+}
+
+.best-gift-img-container-one>img {
+    height: 250px;
+}
+
+
+/* suscribe-container */
+.suscribe-container {
+    margin-top: 120px;
+    height: 400px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    text-align: center;
+    padding: 80px 200px;
+}
+
+.suscribe-container>h2 {
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.suscribe-container>p {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+}
+.subscribe-btn-div{
+    margin-top: 25px;
+}
+
+.subscribe-btn-div>input {
+    padding: 15px;
+    border: 0;
+    border-radius: 50px 0 0  50px;
+    background: rgb(255, 255, 255);
+}
+
+.subscribe-btn-div>button {
+    margin-left: -5px;
+    border-radius: 0;
+    border-radius: 0px 50px 50px 0px;
+    background: rgb(255, 0, 0);
+}
+
+footer{
+    margin-top: 120px;
+    background: rgb(7, 2, 17);
+    padding-top: 100px;
+    padding-left: 120px;
+    padding-right: 320px;
+    color: white;
+}
+.footer-section{
+    display: flex;
+    justify-content: space-between;
+}
+.div2{
+    text-align: center;
+    align-items: center;
+}
+.call-div, .website-div{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.call-div>img, .website-div>img{
+    width: 17px;
+    height: 17px;
+}
+.call-div>a, .website-div>a{
+  text-decoration: none;
+  color: white;
+}
+.call-div>a, .call-div>img{
+    margin-bottom: 20px;
+}
+.footer-icon-container{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-align: center;
+}
